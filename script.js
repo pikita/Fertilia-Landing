@@ -26,23 +26,20 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   gsap.to(".fertilia-logo", {
-    duration: 3,
+    duration: 2.6,
     x: 900,
     ease: "power4.inOut",
-    /* delay: 7, */
-    delay: 1,
-  });
-
-  gsap.to(".fertilia-logo", {
-    //x: 100,
-    opacity: 0,
-    duration: 2,
     delay: 1.5,
-    /* delay: 8.5, */
-    ease: "power3.out",
+    opacity: 0,
     onComplete: () => {
-      gsap.set(".pre-loader", {
-        display: "none",
+      gsap.to(".fertilia-logo", {
+        duration: 2,
+        ease: "power3.out",
+        onComplete: () => {
+          gsap.set(".pre-loader", {
+            display: "none",
+          });
+        },
       });
     },
   });
