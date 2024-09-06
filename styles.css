@@ -93,6 +93,7 @@ nav {
   position: sticky;
   top: 0;
   width: 100%;
+  height: 90px;
   display: flex;
   padding: 1.4em;
   z-index: 2;
@@ -100,7 +101,7 @@ nav {
 }
 nav.scrolled {
   background-color: #f0f0f0; 
-  color: #6b6a6a; 
+  color: #969494; 
   
 }
 
@@ -141,7 +142,7 @@ nav>div {
 }
 
 .website-content .menu-new p {
-  padding-top: 13px !important;
+  /* padding-top: 5px !important; */
   padding-right: 100px !important;
 }
 .menu-new a {
@@ -153,7 +154,7 @@ nav>div {
 }
 
 .header {
-  padding-top: 15%;
+  padding-top: 5%;
   display: block;
   position:relative;
 /*   top: 70%;
@@ -178,7 +179,7 @@ nav>div {
   margin-top: 20px;
   text-align: center;
   width: 100%;
-  height: 700px;
+  height: 500px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -242,6 +243,7 @@ nav>div {
 
   .website-content .menu-new p {
     padding-right: 10px !important;
+    padding-top: 5px;
   }
 
 }

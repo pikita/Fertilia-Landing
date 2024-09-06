@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   gsap.to(".header", {
-    scale: 0.4,
+    scale: 0.6,
     visibility: 'visible',
     opacity: 1,
     duration: 3,
