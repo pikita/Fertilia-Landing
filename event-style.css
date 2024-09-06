@@ -1,0 +1,123 @@
+/* body {
+    font-family: 'p22-underground', sans-serif !important;
+} */
+
+/* div {
+    display: block;
+} */
+
+.schedule-section {
+    
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    position: relative;
+    max-width: 940px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    font-family: 'p22-underground-sc', sans-serif !important;
+    font-weight: 100 !important;
+    font-size: 3em !important;
+    color: #0a2240;
+    border-bottom: 1px solid #0a2240;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    margin: 10px 25px;
+}
+
+/*a {
+    color: #0a2240 !important;
+}*/
+
+.nav-tabs {
+    border: none !important;
+}
+
+.nav-justified {
+    border: none !important;
+    width: 50% !important;
+}
+
+.nav-tabs>li>a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #0a2240;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:hover {
+    color: #577293 !important;
+    cursor: default;
+    background-color: #fff !important;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #ffc514 !important;
+    /* transition: 0.3s; */
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+
+.tab-content {
+    padding-top: 15px;
+    font-family: "Timmons NY", sans-serif !important;
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .75s linear !important;
+    -o-transition: opacity .75s linear !important;
+    transition: opacity .75s linear !important;
+}
+
+.schedule-item {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 15px;
+}
+
+.col-md-2 {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+    .col-md-2 {
+        margin-top: 0;
+    }
+
+     ul.nav-tabs {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .nav-tabs>li>a {
+        font-size: 1.5rem;
+    }
+}
+
+.col-md-10>h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
