@@ -222,7 +222,6 @@ nav>div {
   -webkit-transform: translate(-50%, 0) rotate(45deg);
   transform: translate(-50%, 0) rotate(45deg);
   animation: fade_move_down 2s cubic-bezier(0.19, 1, 0.22, 1) infinite;
-  animation-delay: 9s;
   opacity: 0;
 }
 
