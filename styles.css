@@ -24,7 +24,7 @@ body {
 
 .hero {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 4em;
 }
 
@@ -46,8 +46,8 @@ body {
 .fertilia-logo {
   max-width: 20%;
   max-height: 20%;
-  /*   object-fit: contain;
-  position: static;
+  object-fit: contain;
+  /*position: static;
   clip-path: none; */
 }
 
