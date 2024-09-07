@@ -46,7 +46,7 @@ body {
 .fertilia-logo {
   max-width: 20%;
   max-height: 20%;
-  object-fit: contain;
+  
   /*position: static;
   clip-path: none; */
 }
