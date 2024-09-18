@@ -25,24 +25,19 @@ document.addEventListener("DOMContentLoaded", function () {
     window.scrollTo({ top: y, behavior: 'smooth' });
   });
 
+
   gsap.to(".fertilia-logo", {
-    duration: 2.6,
+    duration: 4.1,
     x: 900,
     ease: "power4.inOut",
-    delay: 1.5,
+    delay: 1.3,
     opacity: 0,
     onComplete: () => {
-      gsap.to(".fertilia-logo", {
-        duration: 2,
-        ease: "power3.out",
-        onComplete: () => {
-          gsap.set(".pre-loader", {
-            display: "none",
-          });
-        },
-      });
-    },
-  });
+      gsap.set(".pre-loader", {
+        display: "none",
+      })
+    }
+  })
 
   gsap.to(".hero-imgs > img", {
     clipPath: "polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%)",
@@ -103,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     opacity: 1,
     y: 0,
-    duration: 1,
+    duration: 2,
     ease: "power1.in",
   })
 });
