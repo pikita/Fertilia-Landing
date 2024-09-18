@@ -27,10 +27,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   gsap.to(".fertilia-logo", {
-    duration: 4.1,
+    duration: 3.8,
     x: 900,
     ease: "power4.inOut",
-    delay: 1.3,
+    delay: 0.7,
     opacity: 0,
     onComplete: () => {
       gsap.set(".pre-loader", {
